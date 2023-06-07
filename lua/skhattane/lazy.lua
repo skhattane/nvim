@@ -94,4 +94,16 @@ require("lazy").setup({
     },
     build = ':TSUpdate',
   },
+  -----------------
+  -- Undotree
+  -----------------
+  {
+    'mbbill/undotree',
+  },
+  ----------------
+  -- Git
+  ----------------
+  {
+    'tpope/vim-fugitive',
+  },
 })
