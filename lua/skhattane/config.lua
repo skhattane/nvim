@@ -1,5 +1,6 @@
 vim.o.hlsearch = false -- Highlight, edit, and navigate code
 vim.wo.number = true -- Make line numbers default
+vim.wo.relativenumber = true --Make line relative numbers default
 vim.o.mouse = 'a' -- Enable mouse mode
 vim.o.clipboard = 'unnamedplus' -- Sync clipboard between OS and Neovim. Remove this option if you want your OS clipboard to remain independent. See `:help 'clipboard'`
 vim.o.breakindent = true -- Enable break indent
